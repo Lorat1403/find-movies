@@ -2,12 +2,13 @@ export const theme = {
   colors: {
     black: '#000',
     white: '#fff',
-    orangered: '#ff4500',
+    orangered: '#8F00FF',
+    indigo: '#4B0082',
     text: '#2a2a2a',
     background: '#fff',
-    primary: '#07c',
+    primary: '#3498DB',
     secondary: '#05a',
-    accent: '#609',
+    accent: '#CD5C5C',
     muted: '#f6f6f6',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
@@ -49,8 +50,8 @@ export const theme = {
   },
   borders: {
     none: 'none',
-    normal: '1px solid orangered',
-    bold: '2px solid orangered',
+    normal: '1px solid violet',
+    bold: '2px solid violet',
   },
   borderStyles: {
     solid: 'solid',
