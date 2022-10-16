@@ -19,7 +19,7 @@ const SharedLayout = () => {
         as="header"
       >
         <Navigation>
-          <Link to="/" state={{ from: location }}>
+          <Link to="/" state={{ from: location }} end>
             Home
           </Link>
           <Link to="movies" state={{ from: location }}>
