@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Box>
+    <Box bg="periwinkle">
       <Container>
         <Title>Trending today</Title>
         <List>
