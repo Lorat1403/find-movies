@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 100%;
-  padding: 10px ${p => p.theme.space[5]}px;
-  margin: 0 auto;
+  padding: 10px ${p => p.theme.space[4]}px;
+  margin: 20px auto;
   background-color: ${p => p.theme.colors.periwinkle};
 
   @media screen and (min-width: 320px) {
     width: 320px;
   }
   @media screen and (min-width: 768px) {
-    padding: 0 ${p => p.theme.space[5]}px;
+    padding: 10px ${p => p.theme.space[5]}px;
     width: 768px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     width: 1280px;
   }
 `;
@@ -21,7 +21,7 @@ export const Container = styled.div`
 export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: auto;
   row-gap: ${p => p.theme.space[5]}px;
   @media screen and (min-width: 320px) {
     width: 100%;
@@ -29,7 +29,7 @@ export const List = styled.ul`
   @media screen and (min-width: 768px) {
     gap: ${p => p.theme.space[5]}px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     column-gap: ${p => p.theme.space[3]}px;
   }
 `;
@@ -56,9 +56,9 @@ export const ListItem = styled.li`
     box-shadow: ${p => p.theme.shadows.cardHover};
   }
   @media screen and (min-width: 768px) {
-    flex-basis: calc((100% - ${p => p.theme.space[5]}px) / 2);
+    flex-basis: calc((100% - ${p => p.theme.space[4]}px) / 3);
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - ${p => p.theme.space[4]}px * 2) / 4);
   }
 `;
@@ -73,7 +73,7 @@ export const Img = styled.img`
   @media screen and (min-width: 768px) {
     height: 455px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     height: 550px;
   }
 `;
