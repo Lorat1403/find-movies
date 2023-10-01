@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 100%;
-  padding: 0 ${p => p.theme.space[4]}px;
+  padding: 10px ${p => p.theme.space[5]}px;
   margin: 0 auto;
+  background-color: ${p => p.theme.colors.periwinkle};
+
   @media screen and (min-width: 320px) {
     width: 320px;
   }
@@ -20,7 +22,7 @@ export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  row-gap: ${p => p.theme.space[4]}px;
+  row-gap: ${p => p.theme.space[5]}px;
   @media screen and (min-width: 320px) {
     width: 100%;
   }
@@ -28,7 +30,7 @@ export const List = styled.ul`
     gap: ${p => p.theme.space[5]}px;
   }
   @media screen and (min-width: 1280px) {
-    column-gap: ${p => p.theme.space[4]}px;
+    column-gap: ${p => p.theme.space[3]}px;
   }
 `;
 
@@ -44,7 +46,8 @@ export const ListItem = styled.li`
   width: 100%;
   display: flex;
   flex-direction: column;
-  border-radius: ${p => p.theme.radii.md};
+  border: ${p => p.theme.borders.normal};
+  border-radius: ${p => p.theme.radii.lg};
   transition: ${p => p.theme.transition.transform},
     ${p => p.theme.transition.boxShadow};
   &:hover,
@@ -56,12 +59,14 @@ export const ListItem = styled.li`
     flex-basis: calc((100% - ${p => p.theme.space[5]}px) / 2);
   }
   @media screen and (min-width: 1280px) {
-    flex-basis: calc((100% - ${p => p.theme.space[4]}px * 2) / 3);
+    flex-basis: calc((100% - ${p => p.theme.space[4]}px * 2) / 4);
   }
 `;
 
 export const Img = styled.img`
   margin-bottom: ${p => p.theme.space[3]}px;
+  border: ${p => p.theme.borders.normal};
+  border-radius: ${p => p.theme.radii.lg};
   @media screen and (min-width: 320px) {
     height: 398px;
   }
@@ -69,7 +74,7 @@ export const Img = styled.img`
     height: 455px;
   }
   @media screen and (min-width: 1280px) {
-    height: 574px;
+    height: 550px;
   }
 `;
 

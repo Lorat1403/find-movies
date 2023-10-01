@@ -8,8 +8,10 @@ export const theme = {
     background: '#fff',
     primary: '#3498DB',
     secondary: '#05a',
-    accent: '#CD5C5C',
+    accent: '#FF00FF',
     muted: '#f6f6f6',
+    darkmagenta: '#7B68EE',
+    periwinkle: '#CCCCFF',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -20,7 +22,7 @@ export const theme = {
   fontSizes: {
     xs: '12px',
     s: '14px',
-    m: '16px',
+    m: '24px',
     l: '32px',
     xl: '64px',
   },

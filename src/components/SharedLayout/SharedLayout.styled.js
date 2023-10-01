@@ -9,6 +9,7 @@ export const Navigation = styled.nav`
 export const Link = styled(NavLink)`
   color: ${p => p.theme.colors.black};
   font-weight: ${p => p.theme.fontWeights.bold};
+  font-size: ${p => p.theme.fontSizes.m};
   padding: ${p => p.theme.space[4]}px 0;
   transition: ${p => p.theme.transition.color};
   :hover,
