@@ -12,6 +12,7 @@ export const theme = {
     muted: '#f6f6f6',
     darkmagenta: '#7B68EE',
     periwinkle: '#CCCCFF',
+    lightcyan: '#E0FFFF',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {

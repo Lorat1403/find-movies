@@ -67,7 +67,7 @@ const Movies = () => {
   };
 
   return (
-    <Box>
+    <Box bg="lightcyan">
       <Container>
         <Form onSubmit={handleSubmit}>
           <Input type="text" name="query" placeholder="Movie search" />
