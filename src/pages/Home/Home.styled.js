@@ -4,7 +4,6 @@ export const Container = styled.div`
   max-width: 100%;
   padding: 10px ${p => p.theme.space[4]}px;
   margin: 20px auto;
-  ${'' /* background-color: ${p => p.theme.colors.periwinkle}; */}
 
   @media screen and (min-width: 320px) {
     width: 320px;

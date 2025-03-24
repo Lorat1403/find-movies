@@ -40,7 +40,7 @@ const MovieDetails = () => {
     <>
       {status === 'RESOLVED' && (
         <Box>
-          <Box as="div" p="5">
+          <Box bg="lightcyan" as="div" p="5">
             <BackLink to={backLinkHref}>Back to movies</BackLink>
             <MovieCard movie={movie} />
             <div>
